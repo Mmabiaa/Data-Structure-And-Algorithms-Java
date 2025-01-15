@@ -24,12 +24,12 @@ Each node in a linked list contains:
 - **Print**: O(n) for traversing the entire list.
 
 ### Example Usage
-
+```
 LinkedList list = new LinkedList();
 list.add(10);
 list.add(20);
 list.printList(); // Output: 10 20
-text
+```
 
 ---
 
@@ -51,13 +51,13 @@ A **Stack** is a linear data structure that follows the Last In First Out (LIFO)
 - **Peek**: O(1)
 
 ### Example Usage
-
+```
 Stack stack = new Stack(5);
 stack.push(10);
 stack.push(20);
 System.out.println(stack.pop()); // Output: 20
 System.out.println(stack.isEmpty()); // Output: false
-text
+```
 
 ---
 
